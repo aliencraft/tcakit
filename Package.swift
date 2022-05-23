@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.6
 
 import PackageDescription
 
@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "ComposableArchitectureKit", targets: ["ComposableArchitectureKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "0.34.0"),
+        .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "0.35.0"),
     ],
     targets: [
         .target(
